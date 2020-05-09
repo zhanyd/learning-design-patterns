@@ -1,7 +1,8 @@
 package strategy.unit;
 
 /**
- * @author Administrator
+ * 弓箭战斗子类
+ * @author zhanyd
  */
 public class FightWithArrow implements FightBeHavior{
     public void fight() {
