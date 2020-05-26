@@ -1,4 +1,4 @@
-package factory.wuxia.factory;
+package factory.wuxia.abstractFactory;
 
 public class XingJunDanDrug extends Drug {
 
