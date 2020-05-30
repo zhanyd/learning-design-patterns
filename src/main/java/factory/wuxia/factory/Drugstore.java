@@ -1,7 +1,6 @@
 package factory.wuxia.factory;
 
 public class Drugstore {
-
     /**
      * 药房接到订单生产药品
      * @param type
@@ -14,7 +13,7 @@ public class Drugstore {
 
         System.out.println("接到订单：" + type);
 
-        // 获取对应的工厂
+        /*// 获取对应的工厂
         if ("行军丹".equals(type)) {
             drugFactory = new XingJunDanDrugFactory();
         } else if ("金疮药".equals(type)) {
@@ -24,15 +23,14 @@ public class Drugstore {
         } else if ("灵葫仙丹".equals(type)) {
             drugFactory = new LinHuXianDanDrugFactory();
         }
+        // 生产对应的药品
+        drug = drugFactory.createDrug();*/
 
         // 生产对应的药品
-        drug = drugFactory.createDrug();
+        drug = DrugFactoryMap.getFactory(type).createDrug();
 
         // 打包药品
         drug.packing();
-
         return drug;
-
     }
-
 }

@@ -19,10 +19,8 @@ public class Drugstore {
             System.out.println("接到普通订单：" + type + " 切换普通工厂");
         }
 
-        Drug drug = null;
-
         // 通过工厂生产药品
-        drug = drugFactory.createDrug(type);
+        Drug drug = drugFactory.createDrug(type);
 
         // 打包药品
         drug.packing();
