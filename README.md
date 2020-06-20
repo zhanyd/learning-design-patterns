@@ -7,3 +7,5 @@
 [观察者模式](https://blog.csdn.net/zhanyd/article/details/106156460)
 
 [工厂模式](https://blog.csdn.net/zhanyd/article/details/106300704)
+
+[状态模式](https://blog.csdn.net/zhanyd/article/details/106841497)
