@@ -9,3 +9,5 @@
 [工厂模式](https://blog.csdn.net/zhanyd/article/details/106300704)
 
 [状态模式](https://blog.csdn.net/zhanyd/article/details/106841497)
+
+[装饰模式](https://blog.csdn.net/zhanyd/article/details/106981859)
