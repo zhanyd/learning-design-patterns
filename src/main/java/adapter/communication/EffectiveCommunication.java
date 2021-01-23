@@ -6,7 +6,7 @@ public class EffectiveCommunication {
      * 更好地工作
      */
     public void betterWork() {
-        System.out.println("关于工作：不赚钱，还想有女朋友？想一辈子做单身狗？");
+        System.out.println("关于工作：不赚钱，还想有女朋友/男朋友？想一辈子做单身狗？");
     }
 
     /**
