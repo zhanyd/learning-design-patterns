@@ -14,16 +14,10 @@ public class InspectSoldierNormal {
         for(int i = 0; i < soldierArray.length; i++) {
             System.out.println(soldierArray[i]);
         }
-        // 遍历简雍队
-        JianYongSetArmy jianYongSetArmy = new JianYongSetArmy();
-        HashSet<Soldier> soldierSet = jianYongSetArmy.getSoldiers();
-        for(Soldier soldier : soldierSet) {
-            System.out.println(soldier);
-        }
         // 遍历马良队
         MaliangListArmy maliangListArmy = new MaliangListArmy();
         ArrayList<Soldier> soldierList = maliangListArmy.getSoldiers();
-        for(int i = 0; i< soldierList.size(); i++) {
+        for(int i = 0; i < soldierList.size(); i++) {
             System.out.println(soldierList.get(i));
         }
     }

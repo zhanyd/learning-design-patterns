@@ -1,11 +1,13 @@
-package iterator.soldier.normal;
+package iterator.soldier.iterator;
+
+import iterator.soldier.normal.Soldier;
 
 import java.util.ArrayList;
 
 /**
  * 马良队
  */
-public class MaliangListArmy {
+public class MaliangListArmy implements ArmyCollection{
 
     ArrayList<Soldier> soldierList;
 
@@ -35,6 +37,11 @@ public class MaliangListArmy {
      */
     public ArrayList<Soldier> getSoldiers() {
         return soldierList;
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new MaliangArmyIterator(soldierList);
     }
 
 }
