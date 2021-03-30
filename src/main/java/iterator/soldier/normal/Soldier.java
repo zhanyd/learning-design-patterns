@@ -1,4 +1,4 @@
-package iterator.soldier;
+package iterator.soldier.normal;
 
 /**
  * 士兵类
@@ -16,6 +16,12 @@ public class Soldier {
      * 所属
      */
     String belongs;
+
+    public Soldier(String name, String unit, String belongs) {
+        this.name = name;
+        this.unit = unit;
+        this.belongs = belongs;
+    }
 
     public String getName() {
         return name;
@@ -41,7 +47,8 @@ public class Soldier {
         this.belongs = belongs;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "姓名：" + name + ", 兵种：" + unit + ", 所属：" + belongs;
+    }
 }
