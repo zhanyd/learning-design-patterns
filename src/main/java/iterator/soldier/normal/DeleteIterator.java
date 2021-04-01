@@ -1,9 +1,10 @@
 package iterator.soldier.normal;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class DeleteNormal {
+public class DeleteIterator {
     public static void main(String[] args) {
         List<String> lists = new ArrayList<String>();
         lists.add("a");
@@ -11,9 +12,10 @@ public class DeleteNormal {
         lists.add("c");
         lists.add("d");
         lists.add("e");
-        for(int i = 0; i < lists.size(); i++) {
-            System.out.println(lists.get(i));
-            lists.remove(i);
+        Iterator listsIterator = lists.iterator();
+        while (listsIterator.hasNext()) {
+            listsIterator.remove();
+            System.out.println(listsIterator.next());
         }
     }
 }
