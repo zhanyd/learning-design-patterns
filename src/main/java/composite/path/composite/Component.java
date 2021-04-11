@@ -25,8 +25,5 @@ public abstract class Component {
      * 打印名称
      * @param depth
      */
-    public void print(int depth) {
-        throw new UnsupportedOperationException("不支删除操作");
-    }
-
+    public abstract void print(int depth);
 }

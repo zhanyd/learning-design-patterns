@@ -2,6 +2,9 @@ package composite.path.normal;
 
 import java.util.Collections;
 
+/**
+ * 文件实现类
+ */
 public class Leaf implements ILeaf{
 
     String name;

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * 目录实现类
+ */
 public class Branch implements IBranch{
 
     List<Object> branchList = new ArrayList<Object>();

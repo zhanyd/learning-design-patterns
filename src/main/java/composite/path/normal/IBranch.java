@@ -2,6 +2,9 @@ package composite.path.normal;
 
 import java.util.List;
 
+/**
+ * 目录接口
+ */
 public interface IBranch {
     /**
      * 打印目录名
