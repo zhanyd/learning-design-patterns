@@ -1,5 +1,8 @@
 package builder.wuxia.builder;
 
+/**
+ * 药品类
+ */
 public class Drug {
 
     /**
@@ -44,7 +47,7 @@ public class Drug {
     @Override
     public String toString() {
         StringBuffer display = new StringBuffer();
-        display.append("---- " + name + " 生产情况 ----\n");
+        display.append("---- 获得 " + name + " 生产情况 ----\n");
         display.append("是否已混合：" + isMixed+ "\n");
         display.append("是否已浸泡：" + isSoakd+ "\n");
         display.append("是否已加入秘药：" + hasSecretMedicine+ "\n");

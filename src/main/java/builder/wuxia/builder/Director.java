@@ -1,7 +1,7 @@
 package builder.wuxia.builder;
 
 /**
- * 导演类
+ * 导向器类
  */
 public class Director {
 
