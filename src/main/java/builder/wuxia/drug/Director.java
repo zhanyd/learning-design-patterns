@@ -1,4 +1,4 @@
-package builder.wuxia.builder;
+package builder.wuxia.drug;
 
 /**
  * 导向器类

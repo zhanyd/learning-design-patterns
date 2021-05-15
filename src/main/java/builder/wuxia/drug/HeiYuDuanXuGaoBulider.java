@@ -1,4 +1,4 @@
-package builder.wuxia.builder;
+package builder.wuxia.drug;
 
 /**
  * 黑玉断续膏建造者类
