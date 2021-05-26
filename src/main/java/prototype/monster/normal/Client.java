@@ -1,4 +1,4 @@
-package prototype.monster;
+package prototype.monster.normal;
 
 import java.util.ArrayList;
 import java.util.List;

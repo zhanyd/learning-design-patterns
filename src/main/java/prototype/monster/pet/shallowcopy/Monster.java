@@ -1,4 +1,4 @@
-package prototype.monster;
+package prototype.monster.pet.shallowcopy;
 
 /**
  * 怪物类
@@ -20,10 +20,16 @@ public class Monster implements Cloneable{
      */
     int hp;
 
-    public Monster(String name, int attackPower, int hp) {
+    /**
+     * 宠物
+     */
+    Pet pet;
+
+    public Monster(String name, int attackPower, int hp, Pet pet) {
         this.name = name;
         this.attackPower = attackPower;
         this.hp = hp;
+        this.pet = pet;
     }
 
     @Override
@@ -33,7 +39,7 @@ public class Monster implements Cloneable{
 
     @Override
     public String toString() {
-        return "怪物名称：" + name + "，攻击力：" + attackPower + "，生命值：" + hp;
+        return "怪物名称：" + name + "，攻击力：" + attackPower + "，生命值：" + hp + ", 宠物名称：" + pet.name + "，技能：" + pet.skill;
     }
 
     public String getName() {
@@ -60,4 +66,11 @@ public class Monster implements Cloneable{
         this.hp = hp;
     }
 
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
 }
