@@ -35,8 +35,8 @@ public class AndExpression implements Expression {
      */
     @Override
     public boolean interpret(Map<String, Integer> states) {
-        for(Expression exor : expressions) {
-            if(!exor.interpret(states)) {
+        for(Expression expr : expressions) {
+            if(!expr.interpret(states)) {
                 return false;
             }
         }
