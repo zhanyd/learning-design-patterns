@@ -1,5 +1,8 @@
 package memento.game.memento;
 
+/**
+ * 备忘录类
+ */
 public class Memento {
 
     /**

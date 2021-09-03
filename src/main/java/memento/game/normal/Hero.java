@@ -1,7 +1,7 @@
 package memento.game.normal;
 
 /**
- * 英雄
+ * 英雄类
  */
 public class Hero {
 
