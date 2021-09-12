@@ -10,6 +10,8 @@
 
 [状态模式](https://blog.csdn.net/zhanyd/article/details/106841497)
 
+[模板方法模式](https://blog.csdn.net/zhanyd/article/details/106586568)
+
 [装饰模式](https://blog.csdn.net/zhanyd/article/details/106981859)
 
 [单例模式](https://blog.csdn.net/zhanyd/article/details/109388289)
