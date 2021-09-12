@@ -41,3 +41,5 @@
 [中介者模式](https://blog.csdn.net/zhanyd/article/details/119673741)
 
 [备忘录模式](https://blog.csdn.net/zhanyd/article/details/120056504)
+
+[访问者模式](https://blog.csdn.net/zhanyd/article/details/120236247)
